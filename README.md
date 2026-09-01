@@ -36,19 +36,13 @@ DeepDomain is designed particularly for **DNN predictor models with continuous o
 
 ## 💡 Behavioral Domain Adequacy
 
-DeepDomain considers two complementary dimensions of behavioral domain adequacy.
+DeepDomain considers two complementary dimensions of behavioral domain adequacy:
 
-### Inter-behavioural Domain
+1. **Inter-behavioural domain**  
+   Follow-up tests should explore behavioral regions that are **broader than those covered by their source tests**. This encourages the generation of tests that explore new behavioral regions rather than repeatedly producing similar behaviors.
 
-Follow-up tests should explore behavioral regions that are **broader than those covered by their source tests**.
-
-This encourages the generation of tests that explore new behavioral regions rather than repeatedly producing similar behaviors.
-
-### Intra-behavioural Domain
-
-Once a misbehaviour-inducing region has been identified, follow-up tests should further explore its **neural boundary**.
-
-This allows DeepDomain to investigate regions around previously detected misbehaviours more systematically.
+2. **Intra-behavioural domain**  
+   Once a misbehaviour-inducing region has been identified, follow-up tests should further explore its **neural boundary**. This allows DeepDomain to investigate regions around previously detected misbehaviours more systematically.
 
 Together, these objectives guide the search from:
 
